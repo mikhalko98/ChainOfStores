@@ -1,0 +1,84 @@
+*****************************
+select all users first/last name who made a purchase of products from "Office" category in "Rite Aid" shop for last 10 years
+//////////////
+SELECT DISTINCT u.user_first_name, u.user_last_name FROM orders o
+    INNER JOIN users u ON o.id_user = u.id
+	INNER JOIN shops sh ON o.id_shop = sh.id 
+	INNER JOIN order_products o_p ON o.id_order = o_p.id_order
+    INNER JOIN product_category p_c ON o_p.id_product = p_c.id_category
+    INNER JOIN categoriesCatalog c_c ON p_c.id_category = c_c.id                                        
+WHERE sh.shop_name='Rite Aid' 
+	AND c_c.name='Office' 
+    AND o.date >  DATE_SUB(CURDATE() ,INTERVAL 10 YEAR)
+ORDER BY u.user_last_name
+*************************
+
+**************************
+select names of all categories and count the number of purchases of products from that category
+//////////////
+SELECT DISTINCT (tabl.name), COUNT(tabl.id) AS orders FROM
+	(SELECT DISTINCT o.id, c_c.name FROM orders o
+	JOIN order_products o_p ON o.id_order = o_p.id_order
+	JOIN product_category p_c ON o_p.id_product = p_c.id_product
+	JOIN categoriesCatalog c_c ON p_c.id_category = c_c.id) tabl
+GROUP BY tabl.name
+ORDER BY orders DESC;
+*****************************
+
+*************************
+select users first/last name who have more then one purchase in "Kroger" shop
+////////////////
+SELECT  tabl.user_first_name, tabl.user_last_name FROM
+(SELECT u.id, u.user_first_name, u.user_last_name FROM orders o
+    INNER JOIN users u ON o.id_user = u.id
+	INNER JOIN shops sh ON o.id_shop = sh.id                                       
+WHERE sh.shop_name='Kroger') tabl
+GROUP BY tabl.id
+HAVING COUNT(tabl.id) > 1
+******************************
+
+***************************
+show profit amount per month by particular shop (Might be useful in reporting)
+////////////
+SELECT YEAR(o.date) AS Year, MONTHNAME(o.date) AS Months, SUM(o.sum) AS profit FROM orders o
+	INNER JOIN shops sh ON o.id_shop = sh.id
+WHERE sh.shop_name = 'Chase' AND YEAR(o.date) = 2013
+GROUP BY Months
+**********************
+
+**********************
+search a user by it's full name oк part of it
+/////////////
+SELECT id, user_first_name, user_first_name, user_last_name, user_email  FROM users
+WHERE user_first_name LIKE '%ris%' 
+	  OR user_last_name LIKE '%quard%'
+********************
+
+
+**********************
+show amount of all purchases made by a user
+///////////////
+SELECT u.user_first_name, u.user_last_name, SUM(o.sum) FROM orders o
+    INNER JOIN users u ON o.id_user = u.id
+GROUP BY u.id
+*******************
+
+*********************
+select users first/last name who have purchases only at "Kroger" shop
+//////////////
+SELECT u.user_first_name, u.user_last_name FROM orders o
+    INNER JOIN users u ON o.id_user = u.id
+    INNER JOIN shops sh ON o.id_shop = sh.id
+GROUP BY u.id
+HAVING GROUP_CONCAT(DISTINCT sh.shop_name) = 'Kroger'
+************************
+
+************************
+select users first/last name who have purchases purchases in all shops
+/////////////////
+
+SELECT u.* FROM orders o
+	INNER JOIN users u ON o.id_user = u.id
+	INNER JOIN shops sh ON o.id_shop = sh.id
+GROUP BY o.id_user
+HAVING COUNT(DISTINCT sh.shop_name) = (SELECT COUNT(*) FROM shops)

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc909ae8-7773-4244-8a52-c0077db2c6bd" name="Default Changelist" comment="version 1.0">
-      <change beforePath="$PROJECT_DIR$/../ChainOfStores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChainOfStores/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChainOfStores/CreateAndFill.php" beforeDir="false" afterPath="$PROJECT_DIR$/../ChainOfStores/CreateAndFill.php" afterDir="false" />
-    </list>
+    <list default="true" id="bc909ae8-7773-4244-8a52-c0077db2c6bd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ChainOfStores/WorkWithDB/FillDB.php">
+        <entry file="file://$PROJECT_DIR$/WorkWithDB/FillDB.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
@@ -52,7 +49,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ChainOfStores/CreateAndFill.php">
+        <entry file="file://$PROJECT_DIR$/CreateAndFill.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
@@ -61,7 +58,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ChainOfStores/index.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
@@ -72,7 +69,10 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ChainOfStores" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,10 +87,10 @@
         <option value="$PROJECT_DIR$/src/Performance.php" />
         <option value="$PROJECT_DIR$/Performance.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/../ChainOfStores/WorkWithDB/AccessToDB.php" />
-        <option value="$PROJECT_DIR$/../ChainOfStores/index.php" />
-        <option value="$PROJECT_DIR$/../ChainOfStores/WorkWithDB/FillDB.php" />
-        <option value="$PROJECT_DIR$/../ChainOfStores/CreateAndFill.php" />
+        <option value="$PROJECT_DIR$/WorkWithDB/AccessToDB.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/WorkWithDB/FillDB.php" />
+        <option value="$PROJECT_DIR$/CreateAndFill.php" />
       </list>
     </option>
   </component>
@@ -123,9 +123,10 @@
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChainOfStores" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -163,7 +164,7 @@
       <workItem from="1558525599115" duration="148000" />
       <workItem from="1559671815903" duration="1679000" />
       <workItem from="1559721636691" duration="19299000" />
-      <workItem from="1559817622847" duration="2118000" />
+      <workItem from="1559817622847" duration="2156000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0">
       <created>1559818788271</created>
@@ -179,11 +180,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559819103144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version 1.0">
+      <created>1559819754446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559819754446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38829000" />
+    <option name="totallyTimeSpent" value="38867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1293" height="638" extended-state="6" />
@@ -245,7 +253,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/config.php">
+    <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
@@ -253,7 +261,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/file.csv" />
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/selects">
+    <entry file="file://$PROJECT_DIR$/selects">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://54436b09-ac7a-41fd-bd32-3e90f35da867/schema/ChainOfStores/table/shops">
@@ -268,14 +276,14 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/54436b09-ac7a-41fd-bd32-3e90f35da867/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/purchase_log.json">
+    <entry file="file://$PROJECT_DIR$/purchase_log.json">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="135">
           <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/purch.json">
+    <entry file="file://$PROJECT_DIR$/purch.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="130" selection-start-column="130" selection-end-column="130" />
@@ -284,86 +292,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/first.csv" />
     <entry file="file://$PROJECT_DIR$/fourth.csv" />
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/queries.sql">
+    <entry file="file://$PROJECT_DIR$/queries.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/sql/schema.sql">
+    <entry file="file://$PROJECT_DIR$/sql/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/WriteCSVfile.php">
+    <entry file="file://$PROJECT_DIR$/WriteCSVfile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/Performance.php">
+    <entry file="file://$PROJECT_DIR$/Performance.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/WorkWithDB/AccessToDB.php">
+    <entry file="file://$PROJECT_DIR$/WorkWithDB/AccessToDB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/WorkWithDB/CreateTables.php">
+    <entry file="file://$PROJECT_DIR$/WorkWithDB/CreateTables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/WorkWithDB/DbConnectManager.php">
+    <entry file="file://$PROJECT_DIR$/WorkWithDB/DbConnectManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/lib/WriteToFile.php">
+    <entry file="file://$PROJECT_DIR$/lib/WriteToFile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/WorkWithDB/file.csv">
+    <entry file="file://$PROJECT_DIR$/WorkWithDB/file.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/WorkWithDB/file.sql">
+    <entry file="file://$PROJECT_DIR$/WorkWithDB/file.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/CreateAndFill.php">
+    <entry file="file://$PROJECT_DIR$/CreateAndFill.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ChainOfStores/WorkWithDB/FillDB.php">
+    <entry file="file://$PROJECT_DIR$/WorkWithDB/FillDB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
